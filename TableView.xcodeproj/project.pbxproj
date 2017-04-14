@@ -15,6 +15,8 @@
 		04BDEE811CAB68CF00F0C357 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04BDEE7F1CAB68CF00F0C357 /* LaunchScreen.storyboard */; };
 		04BDEE8C1CAB68CF00F0C357 /* TableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BDEE8B1CAB68CF00F0C357 /* TableViewTests.m */; };
 		04BDEE971CAB68CF00F0C357 /* TableViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BDEE961CAB68CF00F0C357 /* TableViewUITests.m */; };
+		04BDEEA61CAB69BE00F0C357 /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BDEEA51CAB69BE00F0C357 /* CustomTableViewCell.m */; };
+		04BDEEA91CAB6A0000F0C357 /* CustomBut.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BDEEA81CAB6A0000F0C357 /* CustomBut.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		04BDEE921CAB68CF00F0C357 /* TableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04BDEE961CAB68CF00F0C357 /* TableViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewUITests.m; sourceTree = "<group>"; };
 		04BDEE981CAB68CF00F0C357 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04BDEEA41CAB69BE00F0C357 /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		04BDEEA51CAB69BE00F0C357 /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
+		04BDEEA71CAB6A0000F0C357 /* CustomBut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomBut.h; sourceTree = "<group>"; };
+		04BDEEA81CAB6A0000F0C357 /* CustomBut.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomBut.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				04BDEE751CAB68CF00F0C357 /* AppDelegate.m */,
 				04BDEE771CAB68CF00F0C357 /* ViewController.h */,
 				04BDEE781CAB68CF00F0C357 /* ViewController.m */,
+				04BDEEA41CAB69BE00F0C357 /* CustomTableViewCell.h */,
+				04BDEEA51CAB69BE00F0C357 /* CustomTableViewCell.m */,
+				04BDEEA71CAB6A0000F0C357 /* CustomBut.h */,
+				04BDEEA81CAB6A0000F0C357 /* CustomBut.m */,
 				04BDEE7A1CAB68CF00F0C357 /* Main.storyboard */,
 				04BDEE7D1CAB68CF00F0C357 /* Assets.xcassets */,
 				04BDEE7F1CAB68CF00F0C357 /* LaunchScreen.storyboard */,
@@ -271,7 +281,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				04BDEE791CAB68CF00F0C357 /* ViewController.m in Sources */,
+				04BDEEA91CAB6A0000F0C357 /* CustomBut.m in Sources */,
 				04BDEE761CAB68CF00F0C357 /* AppDelegate.m in Sources */,
+				04BDEEA61CAB69BE00F0C357 /* CustomTableViewCell.m in Sources */,
 				04BDEE731CAB68CF00F0C357 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
